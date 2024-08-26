@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* HEADER Y BARRA DE NAVEGACION */
+    
+.header {
+    background-color: #006100;
+    max-width: 100%;
+    height: 90px;
+    top: 0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+
+.header-cursos {
+    background-color: #006100;
+    max-width: 100%;
+    height: 90px;
+    top: 0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.header-nosotros {
+    background-color: #006100;
+    max-width: 100%;
+    height: 90px;
+    top: 0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.header-skills {
+    background-color: #006100;
+    max-width: 100%;
+    height: 90px;
+    top: 0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.logo {
+    margin-left: 20px;
+    color: #F9FAFC;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+
+/* CONTENIDO DENTRO DEL HEADER */
+
+.header-content {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px; 
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.header-content h2 {
+    font-size: 25px;
+    color: #000000;
+    padding: 0 250px;
+   
+    
+}
+
+
+.imagenes-container{
+    padding: 10px 30px;
+}
+
+
+.imagenes {
+    width: 90%;
+    margin: 20px;
+    border: 10px solid #006100;
+    text-align: center;
+    padding: 20px;
+    background-color: #006100;
+    float: left;
+    
+}
+
+.imagenes img{
+    margin-top: 20px;
+    width: auto;
+    height: 300px;
+}
+
+.imagenes .btn{
+    color: #F9FAFC;
+    text-decoration: none;
+    
+}
+
+
+/* CURSOS */
+
+.imagenes-cursos {
+    width: 30%;
+    margin: 20px;
+    border: 10px solid #006100;
+    text-align: center;
+    padding: 20px;
+    background-color: #006100;
+    float: left;
+    
+}
+
+.imagenes-cursos img{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.imagenes-cursos .btn{
+    color: #F9FAFC;
+    text-decoration: none;
+   
+}
+
+/* SKILLS */
+
+.imagenes-skills {
+    width: 30%;
+    margin: 20px;
+    border: 10px solid #3131D3;
+    text-align: center;
+    padding: 20px;
+    background-color: #3131D3;
+    float: left;  
+}
+
+.imagenes-skills img{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.imagenes-skills .btn{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* SECCION GENERAL */
+
+.bloque {
+    display: flex;
+    text-align: center;
+}
+
+.bloque2 {
+    width: 50%;
+}
+
+.descripcion {
+    margin-top: 0px;
+    padding: 30px; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.descripcion-container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.descripcion h2 p{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+h2 {
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    margin: 25px 0 45px 0;
+}
